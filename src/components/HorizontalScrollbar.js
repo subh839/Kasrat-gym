@@ -6,7 +6,7 @@ import ExerciseCard from './ExerciseCard';
 import BodyPart from './BodyPart';
 import RightArrowIcon from '../assests/icons/ar.png';
 import LeftArrowIcon from '../assests/icons/al.png';
-
+//Looping through exercise card like (pic) 
 const LeftArrow = () => {
   const { scrollPrev } = useContext(VisibilityContext);
 
