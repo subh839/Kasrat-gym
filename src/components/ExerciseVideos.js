@@ -1,6 +1,8 @@
 import React from 'react';
 import { Typography, Box, Stack } from '@mui/material';
 import Loader from './Loader';
+// props as exercisevideos name 
+  // slice to using to no. of videos show 
 
 const ExerciseVideos = ({ exerciseVideos, name }) => {
   if (!exerciseVideos.length) return <Loader />;
@@ -34,5 +36,5 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
     </Box>
   );
 };
-
+// last box abut video details showing 
 export default ExerciseVideos;
